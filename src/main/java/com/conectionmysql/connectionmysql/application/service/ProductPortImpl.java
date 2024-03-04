@@ -23,6 +23,7 @@ public class ProductPortImpl implements IProductPort {
 
     @Override
     public void updateProduct(Integer idProduct, String nameProduct, String typeProduct,String categoryProduct) {
+
     }
 
     private ProductJPA existProduct(Integer idProduct){

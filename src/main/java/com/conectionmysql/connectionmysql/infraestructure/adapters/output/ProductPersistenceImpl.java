@@ -15,10 +15,20 @@ public class ProductPersistenceImpl implements IProductPersistence {
     private IProductRepository iProductRepository;
     @Override
     public void createProduct(ProductDomain productDomain) {
+        iProductRepository.save(
+                new ProductJPA(productDomain.getNameProduct(),
+                productDomain.getNameCompany(),
+                productDomain.getTypeProduct()));
     }
 
     @Override
     public void updateProduct(Integer idProduct, ProductDomain productDomain) {
+        iProductRepository.save(
+                new ProductJPA(idProduct,
+                        productDomain.getNameProduct(),
+                        productDomain.getNameCompany(),
+                        productDomain.getTypeProduct()));
+
     }
 
 
