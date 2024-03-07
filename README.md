@@ -1,16 +1,30 @@
 # Taller práctico de pruebas unitaras
 
-## Paso a paso
+## Consideraciones
 
 > Tenga en cuenta que para poder desarrollar este taller 
 > practico debe descargar el código que se encuentra en el repositorio
+> Descargue aquí: [Ejercicio practico](https://github.com/AlexRodriguez09/taller-practico-pruebas-unitarias/archive/refs/heads/main.zip)
 
-### Entorno
+## Entorno
 
 - IDE: IntelliJ IDEA o Eclipse
 - JRE: OpenJDK 17
 
-### Ejercicios prácticos
+## Configuración
+
+### Paso 1
+- Descargue el ejercicio práctico
+
+### Paso 2
+- Importe el proyecto en eclipse o IntellIJ como proyecto maven
+### Paso 3
+- Si está trabajando en IntellIJ siga estos pasos:
+
+Sobre la clase ProductDomain presione las teclas alt + insert, escoja la opción test
+![img.png](img.png)git st,
+
+## Ejercicios prácticos
 
 - [Ejercicio 1 : ](#ejercicio-1)  
 
@@ -46,7 +60,7 @@
 
 
 
-En la clase producto ubicada en la ruta domain, añada tres atributos que tengan 3 atributos:  
+En la clase productDomain, cree las pruebas unitarias que considere para cumplir los requerimientos de los atributos mencionados :  
 Ruta de la clase **domain\model\ProductDomain.java**
 * Nombre producto (nameProduct)
 * Nombre empresa asociada (nameCompany)
